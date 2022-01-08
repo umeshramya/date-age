@@ -1,0 +1,26 @@
+{
+  "name": "date-age",
+  "version": "1.0.0",
+  "description": "transform age to dob and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && yalc publish && cd test &&  yalc add gcp-nrces-fhir && yalc update gcp-nrces-fhir && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshramya/date-age.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umeshramya/date-age/issues"
+  },
+  "homepage": "https://github.com/umeshramya/date-age#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
