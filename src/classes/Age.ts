@@ -10,11 +10,12 @@ export class Age {
   /**
     * 
     * @param dob date of birth
+    * @upDate age on this date
     * @returns age in days month or years
     */
-  public dobToAge(dob: Date): string {
+  public dobToAge(dob: Date, uptoDate:Date = new Date()): string {
     let ret: string = ""
-    let curDate: Date = new Date();
+    let curDate: Date = uptoDate
     let daysDiff: number = Math.abs(curDate.getTime() - dob.getTime()) / (1000 * 60 * 60 * 24)
 
     if (daysDiff < 2) {

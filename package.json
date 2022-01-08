@@ -1,6 +1,6 @@
 {
   "name": "date-age",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "transform age to dob and vice versa",
   "main": "lib/index.js",
   "scripts": {
