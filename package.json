@@ -2,7 +2,7 @@
   "name": "date-age",
   "version": "1.0.0",
   "description": "transform age to dob and vice versa",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "tsc && yalc publish && cd test &&  yalc add date-age && yalc update date-age && node index"
   },

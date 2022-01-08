@@ -20,7 +20,7 @@ export class Age {
     if (daysDiff < 2) {
       ret = `1 day`
     } if (daysDiff < 30) {
-      ret = `${daysDiff} days`
+      ret = `${parseInt(`${daysDiff}`)} days`
     } else if (daysDiff < 60) {
       ret = `1 month`
     } else if (daysDiff < 365) {
