@@ -1,5 +1,8 @@
-import Age from "./classes/Age";
-// import { AgeType, ageArray } from "./classes/Age"
+import {Age, ageArray}from "./classes/Age";
 
-// export type { AgeType }
-export default Age;
+export {Age, ageArray}
+
+
+
+
+
