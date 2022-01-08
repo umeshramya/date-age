@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gcp-nrces-fhir": "file:.yalc/gcp-nrces-fhir"
+    "date-age": "file:.yalc/date-age"
   }
 }

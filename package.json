@@ -4,7 +4,7 @@
   "description": "transform age to dob and vice versa",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && yalc publish && cd test &&  yalc add gcp-nrces-fhir && yalc update gcp-nrces-fhir && node index"
+    "dev": "tsc && yalc publish && cd test &&  yalc add date-age && yalc update date-age && node index"
   },
   "repository": {
     "type": "git",

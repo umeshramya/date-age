@@ -1,11 +1,11 @@
 
-export const ageArray = [ "Years" , "Months" , "Days"] as const
+export const ageArray = ["Years", "Months", "Days"] as const
 export type AgeType = typeof ageArray[number]
 /**
  * This oclass deals with maniplitation of time and date
  */
-export default class Age {
- 
+export class Age {
+
 
   /**
     * 
